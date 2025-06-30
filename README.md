@@ -7,7 +7,7 @@ A **clean, responsive, and modern SaaS landing page** built with **HTML**, **Tai
 
 ## 🌐 Live Preview
 
-🔗 [Live Site](https://your-live-site.vercel.app)  
+🔗 [Live Site](https://biccas-lyart.vercel.app/)  
 📦 [Source Code](https://github.com/mehedihasanrabbivip/biccas)
 
 ---
@@ -65,7 +65,7 @@ code .
 
 Easily deploy this project on platforms such as:
 
-- [Vercel](https://vercel.com) — Recommended for seamless frontend hosting  
+- [Vercel](https://biccas-lyart.vercel.app/) — Recommended for seamless frontend hosting  
 - GitHub Pages — Free and simple for static sites  
 
 ---
@@ -84,7 +84,6 @@ Easily deploy this project on platforms such as:
 **Mehedi Hasan Rabbi (MHRX)**  
 📧 [mehedihasanrabbivip@gmail.com](mailto:mehedihasanrabbivip@gmail.com)  
 🐙 GitHub: [@mehedihasanrabbivip](https://github.com/mehedihasanrabbivip)  
-🌐 Portfolio: _coming soon..._
 
 > Feel free to reach out for collaboration, freelance projects, or any questions!
 
