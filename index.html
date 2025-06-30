@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Biccas-Saas Landing Pages </title>
+  <link rel="stylesheet" href="src/output.css">
+</head>
+<body>    
+
+  <!-- Header/Navbar start -->
+<header class="w-full shadow-sm sticky top-0 z-50 bg-[#f5fdfc] dark:bg-gray-900">
+  <div class="max-w-7xl mx-auto px-10 sm:px-10 lg:px-20 py-5 flex justify-between items-center">
+    
+    <!-- Logo -->
+    <h1 class="text-2xl font-extrabold text-green-500 tracking-tight">Biccas</h1>
+
+    <!-- Nav Links -->
+    <nav class="hidden md:flex space-x-6 text-sm font-medium text-gray-700 dark:text-gray-200">
+      <a href="#home" class="hover:text-green-500">Home</a>
+      <a href="#features" class="hover:text-green-500">Product</a>
+      <a href="#benefits" class="hover:text-green-500">Benefits</a>
+      <a href="#pricing" class="hover:text-green-500">Pricing</a>
+      <a href="#contact" class="hover:text-green-500">Contact Us </a>
+    </nav>
+
+    <!-- Right Side -->
+    <div class="flex items-center space-x-3">
+
+      <!-- Dark Mode Toggle Button -->
+      <button id="dark-toggle" class="p-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 transition" title="Toggle Dark Mode">
+        <svg id="moon-icon" class="w-5 h-5 text-gray-700 dark:text-white" fill="none" stroke="currentColor" stroke-width="2"
+             viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 12.79A9 9 0 0111.21 3a7 7 0 000 18 9 9 0 009.79-8.21z" />
+        </svg>
+      </button>
+
+      <!-- Buttons -->
+      <div class="hidden md:flex space-x-2">
+        <a href="#" class="text-sm px-4 py-1.5 rounded-md text-gray-700 hover:bg-gray-200 dark:text-gray-300 dark:hover:bg-gray-700 transition">Login</a>
+        <a href="#" class="text-sm px-4 py-1.5 rounded-md bg-green-500 text-white hover:bg-green-600 transition">Sign Up</a>
+      </div>
+
+      <!-- Mobile Menu Icon -->
+      <div class="md:hidden">
+        <button id="menu-toggle" class="text-2xl text-gray-700 dark:text-white">☰</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="md:hidden px-6 pb-4 hidden text-sm space-y-2 text-gray-700 dark:text-gray-200">
+    <a href="#home" class="block">Home</a>
+    <a href="#features" class="block">Product</a>
+    <a href="#benefits" class="block">Benefits</a>
+    <a href="#pricing" class="block">Pricing</a>
+    <a href="#contact" class="block">Contact Us </a>
+    <hr class="border-gray-300 dark:border-gray-700">
+    <a href="#" class="block">Login</a>
+    <a href="#" class="block text-green-500">Sign Up</a>
+  </div>
+</header>
+  <!-- Header/Navbar end-->
+
+   <!-- Hero Section Start -->
+<section id="home" class="bg-[#f5fdfc] py-28 px-10 sm:px-10 lg:px-20 dark:bg-gray-900">
+  <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-10">
+
+    <!-- Left Content -->
+    <div class="space-y-6 text-center md:text-left">
+      <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 leading-tight dark:text-white">
+        We’re here to <br />
+        Increase your <br />
+        <span class="text-gray-800 dark:text-white">Productivity</span>
+      </h2>
+
+      <!-- Vector Image (small icon under heading) -->
+      <div class="flex justify-center md:justify-start">
+        <img src="images/Vector 32.png" alt="Vector" class="w-60 sm:w-70 md:w-80 h-auto">
+      </div>
+
+      <p class="text-gray-600 text-base md:text-sm dark:text-gray-300">
+        Let’s make your work more organized and easier using <br class="hidden sm:inline">
+        the Taskio Dashboard with the latest <br class="hidden sm:inline">
+        features to manage your workflow daily.
+      </p>
+
+      <!-- Buttons -->
+      <div class="flex flex-col sm:flex-row justify-center md:justify-start items-center gap-4">
+        <button class="bg-[#54BE96] text-white px-6 py-3 rounded-full font-semibold hover:bg-[#45a985] transition">
+          Try free trial
+        </button>
+        <button class="flex items-center gap-2 text-gray-700 hover:underline dark:text-white">
+        <img src="images/Play.png" alt="Play" class="w-[40px] h-[40px] filter dark:invert transition duration-300">
+         View Demo
+        </button>
+
+      </div>
+    </div>
+
+    <!-- Right Image -->
+    <div class="flex justify-center">
+      <img src="images/Group 138.png" alt="Hero Image"
+           class="w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl h-auto rounded-xl shadow-md">
+    </div>
+  </div>
+  <!-- Team Count Text -->
+<div class="text-center mt-12">
+  <h2 class="text-xl sm:text-2xl md:text-3xl font-semibold text-gray-800 dark:text-white">
+    More than 25,000 teams use Collabs
+  </h2>
+
+  <!-- Brand Logos -->
+  <div class="flex flex-wrap justify-center items-center gap-6 mt-6">
+    <img src="images/Group 141.png" alt="Unsplash" class="h-6" />
+    <img src="images/Group 142.png" alt="Notion" class="h-6" />
+    <img src="images/Group 144.png" alt="Intercom" class="h-6" />
+    <img src="images/Group 145.png" alt="Descript" class="h-6" />
+    <img src="images/Group 146.png" alt="Grammarly" class="h-6" />
+  </div>
+</div>
+</section>
+<!-- Hero Section End -->
+
+<!-- Partner Section start -->
+<section class="bg-[#f5fdfc] py-28 px-10 sm:px-10 lg:px-20 dark:bg-gray-900">
+  <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-start">
+    
+    <!-- Left Side: Title + Description + Ratings -->
+    <div>
+      <h2 class="text-2xl md:text-3xl font-bold text-gray-800 leading-snug mb-4 dark:text-white">
+        How we support our <span class="text-green-600">partner</span> all over the world
+      </h2>
+      <p class="text-gray-500 mb-10 max-w-xl dark:text-gray-100">
+        SaaS become a common delivery model for many business applications, including office software, messaging software, payroll processing software, DBMS software, management software.
+      </p>
+
+      <!-- Ratings -->
+      <div class="flex flex-col sm:flex-row gap-6">
+        <div class="flex items-center space-x-3">
+          <div class="text-yellow-400 text-lg">★★★★★</div>
+          <div>
+            <p class="text-gray-800 font-semibold dark:text-white">4.9 / 5 rating</p>
+            <p class="text-gray-500 text-sm  dark:text-gray-100">Databricks</p>
+          </div>
+        </div>
+        <div class="flex items-center space-x-3">
+          <div class="text-yellow-400 text-lgdark:text-wh">★★★★☆</div>
+          <div>
+            <p class="text-gray-800 font-semibold dark:text-white">4.8 / 5 rating</p>
+            <p class="text-gray-500 text-sm dark:text-gray-100">Chainalysis</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Side: Features -->
+    <div class="grid gap-8 mt-2">
+      <!-- Feature 1 -->
+      <div class="flex items-start space-x-4 mb-2">
+        <div class="bg-white p-2 rounded-lg shadow-sm w-10 h-10 flex-shrink-0">
+          <img src="images/activity-1.png" alt="Publishing Icon" class="w-full h-full object-contain" />
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold text-gray-800 dark:text-white">Publishing</h3>
+          <p class="text-gray-500 text-sm dark:text-gray-100">
+            Plan, collaborate, and publish your content that drives meaningful engagement and growth for your brand.
+          </p>
+        </div>
+      </div>
+
+      <!-- Feature 2 -->
+      <div class="flex items-start space-x-4 mb-2">
+        <div class="bg-white p-2 rounded-lg shadow-sm w-10 h-10 flex-shrink-0">
+          <img src="images/pie-chart-1.png" alt="Analytics Icon" class="w-full h-full object-contain" />
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold text-gray-800 dark:text-white">Analytics</h3>
+          <p class="text-gray-500 text-sm dark:text-gray-100">
+            Analyze your performance and create gorgeous reports.
+          </p>
+        </div>
+      </div>
+
+      <!-- Feature 3 -->
+      <div class="flex items-start space-x-4 mb-2">
+        <div class="bg-white p-2 rounded-lg shadow-sm w-10 h-10 flex-shrink-0">
+          <img src="images/command-1.png" alt="Engagement Icon" class="w-full h-full object-contain" />
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold text-gray-800 dark:text-white">Engagement</h3>
+          <p class="text-gray-500 text-sm dark:text-gray-100">
+            Quickly navigate your data & engage with your audience.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Partner Section end -->
+
+ <!-- Features Section Start  --> 
+<section id="features" class="bg-[#f5fefe] py-28 px-10 sm:px-10 lg:px-20 dark:bg-gray-900">
+
+ <!-- Top Row: Heading + Paragraph + Button -->
+<div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6 mb-16">
+
+  <!-- Heading -->
+  <div class="md:w-1/3">
+    <h2 class="text-4xl font-bold leading-tight dark:text-white ">
+      Our Features<br>
+      <span class="text-gray-800 font-medium dark:text-white">you can get</span>
+    </h2>
+  </div>
+
+  <!-- Paragraph -->
+  <div class="md:w-1/3">
+    <p class="text-gray-500 max-w-md dark:text-gray-100">
+      We offer a variety of interesting features that can help increase your productivity at work and manage your project easily.
+    </p>
+  </div>
+
+  <!-- Button -->
+  <div class="md:w-1/3 flex md:justify-end">
+    <a href="#" class="bg-green-500 text-white px-6 py-3 rounded-full hover:bg-green-600 transition">
+      Get Started
+    </a>
+  </div>
+
+</div>
+
+
+  <!-- Features Row -->
+  <div class="flex flex-col md:flex-row gap-10 text-center md:text-left">
+
+    <!-- Feature 1 -->
+    <div class="flex-1">
+      <img src="images/Frame-247.png" alt="Collaboration Teams" class="w-full h-auto object-contain mb-4 mx-auto md:mx-0" />
+      <h3 class="text-lg font-semibold mb-2 dark:text-white">Collaboration Teams</h3>
+      <p class="text-gray-500 text-sm dark:text-gray-100">
+        Here you can handle projects together with the team virtually.
+      </p>
+    </div>
+
+    <!-- Feature 2 -->
+    <div class="flex-1">
+      <img src="images/Frame-53.png" alt="Cloud Storage" class="w-full h-auto object-contain mb-4 mx-auto md:mx-0" />
+      <h3 class="text-lg font-semibold mb-2 dark:text-white ">Cloud Storage</h3>
+      <p class="text-gray-500 text-sm dark:text-gray-100">
+        No need to worry about storage because we provide up to 2 TB.
+      </p>
+    </div>
+
+    <!-- Feature 3 -->
+    <div class="flex-1">
+      <img src="images/Frame-54.png" alt="Daily Analytics" class="w-full h-auto object-contain mb-4 mx-auto md:mx-0" />
+      <h3 class="text-lg font-semibold mb-2 dark:text-white">Daily Analytics</h3>
+      <p class="text-gray-500 text-sm dark:text-gray-100">
+        We always provide useful information to make it easier for you every day.
+      </p>
+    </div>
+  </div>
+</section>
+<!--  Features Section End  -->
+
+ <!-- user benefits start -->
+ <section id="benefits" class="bg-[#f5fdfc] py-28 px-10 md:px-20 dark:bg-gray-900">
+  <div class="flex flex-col md:flex-row items-center gap-12">
+    
+    <!-- Left side content -->
+    <div class="w-full md:w-1/2">
+      <h2 class="text-3xl md:text-4xl font-bold mb-6 leading-tight dark:text-white">
+        What Benefit Will <br />
+        You Get
+      </h2>
+      <ul class="space-y-4">
+        <li class="flex items-start gap-3">
+          <img src="images/Subtract.png" alt="" class="w-5 h-5 mt-1 text-green-500" />
+          <p class="text-gray-700 dark:text-gray-100">Free Consulting With Expert Saving Money</p>
+        </li>
+        <li class="flex items-start gap-3">
+          <img src="images/Subtract.png" alt="" class="w-5 h-5 mt-1 text-green-500" />
+          <p class="text-gray-700 dark:text-gray-100">Online Banking</p>
+        </li>
+        <li class="flex items-start gap-3">
+          <img src="images/Subtract.png" alt="" class="w-5 h-5 mt-1 text-green-500" />
+          <p class="text-gray-700 dark:text-gray-100">Investment Report Every Month</p>
+        </li>
+        <li class="flex items-start gap-3">
+          <img src="images/Subtract.png" alt="" class="w-5 h-5 mt-1 text-green-500" />
+          <p class="text-gray-700 dark:text-gray-100">Saving Money For The Future</p>
+        </li>
+        <li class="flex items-start gap-3">
+          <img src="images/Subtract.png" alt="" class="w-5 h-5 mt-1 text-green-500" />
+          <p class="text-gray-700 dark:text-gray-100">Online Transaction</p>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Right side image -->
+  <div class="relative w-fit mx-auto">
+  <!-- Main Image -->
+  <img src="images/Rectangle 48.png" alt="Laptop"  class="rounded-xl shadow-lg  w-[200px] sm:w-[350px] md:w-[400px]">
+
+  <!-- Top Left (Avatar) -->
+  <img src="images/Group 111.png" alt="Avatar" 
+       class="absolute top-5 -left-15 w-40 h-auto ">
+
+  <!-- Top Right (Price Box) -->
+  <img src="images/Group 60.png" alt="Price" 
+       class="absolute top-30 -right-12 w-24 h-auto">
+
+  <!-- Bottom Left (Message Box) -->
+  <img src="images/Group 114.png" alt="Message" 
+       class="absolute -bottom-6 -left-15 w-48 h-auto">
+ </div>
+  </div>
+</section>
+ <!-- user benefits end -->
+
+<!-- Pricing Plans start -->
+<section id="pricing" class=" bg-[#f5fdfc] py-28 px-10 sm:px-10 lg:px-20 min-h-screen flex flex-col items-center justify-center dark:bg-gray-900">
+  <div class="text-center mb-10 w-full">
+    <h1 class="text-4xl sm:text-5xl font-bold text-gray-800 mb-4 leading-tight dark:text-white">Choose Plan</h1>
+    <h2 class="text-3xl sm:text-4xl font-semibold text-gray-700 dark:text-white">That's Right For You</h2>
+    <p class="mt-4 text-gray-600 max-w-lg mx-auto dark:text-gray-100">Choose plan that works best for you, feel free to contact us</p>
+  </div>
+
+  <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 mb-8">
+    <button class="px-6 py-2 rounded-lg text-gray-700 border border-gray-300 bg-white shadow-sm hover:border-gray-400">Bill Monthly</button>
+    <button class="px-6 py-2 rounded-lg text-white bg-emerald-500 shadow-md hover:bg-emerald-600">Bill Yearly</button>
+  </div>
+
+  <div class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 gap-8 w-full max-w-6xl mx-auto">
+    
+    <!-- Free Plan -->
+    <div class="group bg-[#f5fdfc]  p-8 rounded-lg shadow-lg text-center border border-gray-200 hover:bg-emerald-500 hover:border-emerald-500 transition-all duration-300">
+      <h3 class="text-2xl font-bold text-gray-800 mb-4 group-hover:text-white transition">Free</h3>
+      <p class="text-gray-600 mb-6 group-hover:text-white transition">Have a go and test your superpowers</p>
+      <div class="text-5xl font-bold text-gray-800 mb-8 group-hover:text-white transition">$0</div>
+      <ul class="text-left text-gray-700 space-y-3 mb-8 text-sm sm:text-base">
+        <li class="flex items-center group-hover:text-white transition">
+          <img src="images/Subtract.png" alt="check" class="w-5 h-5 mr-2 group-hover:bg-white transition duration-300">
+          2 Users
+        </li>
+        <li class="flex items-center group-hover:text-white transition">
+          <img src="images/Subtract.png" alt="check" class="w-5 h-5 mr-2 group-hover:bg-white transition duration-300">
+          2 Files
+        </li>
+        <li class="flex items-center group-hover:text-white transition">
+          <img src="images/Subtract.png" alt="check" class="w-5 h-5 mr-2 group-hover:bg-white transition duration-300">
+          Public Share & Comments
+        </li>
+        <li class="flex items-center group-hover:text-white transition">
+          <img src="images/Subtract.png" alt="check" class="w-5 h-5 mr-2 group-hover:group-hover:bg-white transition duration-300">
+          Chat Support
+        </li>
+        <li class="flex items-center group-hover:text-white transition">
+          <img src="images/Subtract.png" alt="check" class="w-5 h-5 mr-2 group-hover:bg-white transition duration-300">
+          New income apps
+        </li>
+      </ul>
+      <button class="w-full py-3 rounded-lg font-semibold bg-white text-gray-700 border border-gray-300 group-hover:text-emerald-500 group-hover:border-white hover:text-amber-500">Signup for free</button>
+    </div>
+
+    <!-- Pro Plan -->
+    <div class="group bg-[#f5fdfc]  p-8 rounded-lg shadow-lg text-center border border-gray-200 hover:bg-emerald-500 hover:border-emerald-500 transition-all duration-300">
+      <h3 class="text-2xl font-bold text-gray-800 mb-4 group-hover:text-white transition">Pro</h3>
+      <p class="text-gray-600 mb-6 group-hover:text-white transition">Experiment the power of infinite possibilities</p>
+      <div class="text-5xl font-bold text-gray-800 mb-2 group-hover:text-white transition">$8</div>
+      <p class="text-sm mb-8 text-gray-500 group-hover:text-white/80 transition">Save $30 a year</p>
+      <ul class="text-left text-gray-700 space-y-3 mb-8 text-sm sm:text-base">
+        <li class="flex items-center group-hover:text-white transition">
+          <img src="images/Subtract.png" alt="check" class="w-5 h-5 mr-2 group-hover:bg-white transition duration-300">
+          4 Users
+        </li>
+        <li class="flex items-center group-hover:text-white transition">
+          <img src="images/Subtract.png" alt="check" class="w-5 h-5 mr-2 group-hover:bg-white transition duration-300">
+          All apps
+        </li>
+        <li class="flex items-center group-hover:text-white transition">
+          <img src="images/Subtract.png" alt="check" class="w-5 h-5 mr-2 group-hover:bg-white transition duration-300">
+          Unlimited editable exports
+        </li>
+        <li class="flex items-center group-hover:text-white transition">
+          <img src="images/Subtract.png" alt="check" class="w-5 h-5 mr-2 group-hover:bg-white transition duration-300">
+          Folders and collaboration
+        </li>
+        <li class="flex items-center group-hover:text-white transition">
+          <img src="images/Subtract.png" alt="check" class="w-5 h-5 mr-2 group-hover:bg-white transition duration-300">
+          All incoming apps
+        </li>
+      </ul>
+      <button class="w-full py-3 rounded-lg font-semibold bg-white text-gray-700 border border-gray-300 group-hover:text-emerald-500 group-hover:border-white hover:text-amber-500">Go to Pro</button>
+    </div>
+
+    <!-- Business Plan -->
+    <div class="group bg-[#f5fdfc]  p-8 rounded-lg shadow-lg text-center border border-gray-200 hover:bg-emerald-500 hover:border-emerald-500 transition-all duration-300">
+      <h3 class="text-2xl font-bold text-gray-800 mb-4 group-hover:text-white transition">Business</h3>
+      <p class="text-gray-600 mb-6 group-hover:text-white transition">Unveil new superpowers and join the Design League</p>
+      <div class="text-5xl font-bold text-gray-800 mb-8 group-hover:text-white transition">$16</div>
+      <ul class="text-left text-gray-700 space-y-3 mb-8 text-sm sm:text-base">
+        <li class="flex items-center group-hover:text-white transition">
+          <img src="images/Subtract.png" alt="check" class="w-5 h-5 mr-2 group-hover:bg-white transition duration-300">
+          All the features of Pro plan
+        </li>
+        <li class="flex items-center group-hover:text-white transition">
+          <img src="images/Subtract.png" alt="check" class="w-5 h-5 mr-2 group-hover:bg-white transition duration-300">
+          Account success manager
+        </li>
+        <li class="flex items-center group-hover:text-white transition">
+          <img src="images/Subtract.png" alt="check" class="w-5 h-5 mr-2 group-hover:bg-white transition duration-300">
+          Single Sign-On (SSO)
+        </li>
+        <li class="flex items-center group-hover:text-white transition">
+          <img src="images/Subtract.png" alt="check" class="w-5 h-5 mr-2 group-hover:bg-white transition duration-300">
+          Co-conception program
+        </li>
+        <li class="flex items-center group-hover:text-white transition">
+          <img src="images/Subtract.png" alt="check" class="w-5 h-5 mr-2  group-hover:bg-white transition duration-300">
+          Collaboration - Coming soon
+        </li>
+      </ul>
+      <button class="w-full py-3 rounded-lg font-semibold bg-white text-gray-700 border border-gray-300 group-hover:text-emerald-500 group-hover:border-white hover:text-amber-500">Go to Business</button>
+    </div>
+  </div>
+</section>
+<!-- Pricing Plans end -->
+
+ 
+ 
+<!-- Testimonial & Contact Form Section start  -->
+  <section id="contact" class="bg-[#f5fdfc] font-sans dark:bg-gray-900">
+
+  <!-- Testimonial + Form -->
+  <div class="max-w-7xl mx-auto py-28 px-10 sm:px-10 lg:px-20">
+    <div class="flex flex-col sm:flex-row lg:flex-row gap-12 lg:gap-16 items-center">
+
+      <!-- Testimonial -->
+      <div class="flex-1 space-y-8 text-center lg:text-left">
+        <h1 class="text-4xl sm:text-5xl font-bold leading-tight dark:text-white">
+          People are Saying <br class="hidden sm:inline" />
+          About DoWhith
+        </h1>
+        <p class=" text-lg sm:text-xl max-w-xl mx-auto lg:mx-0 dark:text-gray-100">
+          Everything you need to accept payment and grow your money or manage anywhere on the planet.
+        </p>
+
+        <div class="relative pt-6">
+          <span class="absolute -top-4 -left-2 text-6xl text-gray-500 opacity-50 font-serif leading-none dark:text-gray-100">"</span>
+          <p class=" text-lg sm:text-xl italic leading-relaxed pl-6 dark:text-gray-100">
+            I am very helped by this E-wallet application. My days are very easy using this application, and it's very helpful in my life. Even I can pay in a short time.
+          </p>
+          <p class="mt-4 text-gray-400 font-semibold text-lg pl-6 dark:text-gray-100">
+            _ Aria Zinanrio
+          </p>
+        </div>
+
+        <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-6 mt-8">
+          <div class="flex space-x-4">
+            <img class="w-12 h-12 rounded-full border-2 border-gray-700 hover:scale-110 transition" src="images/Ellipse 54.png" alt="User 1">
+            <img class="w-12 h-12 rounded-full border-2 border-gray-700 hover:scale-110 transition" src="images/Ellipse 55.png" alt="User 2">
+            <img class="w-12 h-12 rounded-full border-2 border-gray-700 hover:scale-110 transition" src="images/Ellipse 56.png" alt="User 3">
+            <img class="w-12 h-12 rounded-full border-2 border-gray-700 hover:scale-110 transition" src="images/Ellipse 57.png" alt="User 4">
+          </div>
+          <button class="w-12 h-12 flex items-center justify-center rounded-full bg-gray-800 border-2 border-gray-700 hover:bg-gray-700 transition">
+            <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M8 5v14l11-7z" />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Form -->
+      <div class="bg-[#f5fdfc] p-8 sm:p-10 rounded-lg shadow-xl flex-1">
+        <div class="flex flex-col items-center mb-6">
+          <img src="images/Vector.png" alt="Logo" class="h-auto w-auto mb-4">
+          <h2 class="text-3xl font-bold">Get Started</h2>
+        </div>
+        <form class="space-y-6">
+          <div>
+            <label for="email" class="block text-black text-sm mb-2">Email</label>
+            <input type="email" id="email" placeholder="Enter your email" class="w-full px-4 py-3 rounded-lg bg-gray-700 border border-gray-600 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-emerald-500 dark:text-white text-white"/>
+          </div>
+          <div>
+            <label for="message" class="block text-black text-sm mb-2">Message</label>
+            <textarea id="message" rows="4" placeholder="What are you say?" class="w-full px-4 py-3 rounded-lg bg-gray-700 border border-gray-600 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-emerald-500 resize-none dark:text-white text-white"></textarea>
+          </div>
+          <button type="submit" class="w-full bg-emerald-500 text-white py-3 rounded-lg font-semibold hover:bg-emerald-600 transition shadow-md">
+            Request Demo
+          </button>
+          <p class="text-center text-gray-400 text-sm mt-4">
+            or <a href="#" class="text-emerald-400 hover:underline">Start Free Trial</a>
+          </p>
+        </form>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-gray-950 py-12 px-10 sm:px-10 lg:px-20">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between space-y-10 md:space-y-0">
+
+      <!-- Brand -->
+      <div class="space-y-6 text-center md:text-left">
+        <h3 class="text-2xl font-bold text-white">Biccas</h3>
+        <p class="text-gray-400 dark:text-gray-200">Get started now. Try our product.</p>
+        <div class="flex max-w-sm mx-auto md:mx-0">
+          <input type="email" placeholder="Enter your email here" class="flex-1 px-4 py-3 rounded-l-lg bg-gray-800 border border-gray-700 text-white placeholder-gray-400 focus:ring-emerald-500 focus:outline-none">
+          <button class="bg-emerald-500 px-4 py-3 rounded-r-lg hover:bg-emerald-600 transition">
+            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Links -->
+      <div class="grid grid-cols-2 sm:grid-cols-3 gap-8 text-center md:text-left">
+        <div>
+          <h4 class="font-semibold text-white mb-4">Support</h4>
+          <ul class="space-y-2 text-gray-400 text-sm">
+            <li><a href="#" class="hover:text-emerald-500 dark:text-gray-200">Help centre</a></li>
+            <li><a href="#" class="hover:text-emerald-500 dark:text-gray-200">Account information</a></li>
+            <li><a href="#" class="hover:text-emerald-500 dark:text-gray-200">About</a></li>
+            <li><a href="#" class="hover:text-emerald-500 dark:text-gray-200">Contact us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold text-white mb-4">Help and Solution</h4>
+          <ul class="space-y-2 text-gray-400 text-sm">
+            <li><a href="#" class="hover:text-emerald-500 dark:text-gray-200">Talk to support</a></li>
+            <li><a href="#" class="hover:text-emerald-500 dark:text-gray-200">Support docs</a></li>
+            <li><a href="#" class="hover:text-emerald-500 dark:text-gray-200">System status</a></li>
+            <li><a href="#" class="hover:text-emerald-500 dark:text-gray-200">Covid response</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold text-white mb-4">Product</h4>
+          <ul class="space-y-2 text-gray-400 text-sm">
+            <li><a href="#" class="hover:text-emerald-500 dark:text-gray-200">Update</a></li>
+            <li><a href="#" class="hover:text-emerald-500 dark:text-gray-200">Security</a></li>
+            <li><a href="#" class="hover:text-emerald-500 dark:text-gray-200">Beta test</a></li>
+            <li><a href="#" class="hover:text-emerald-500  dark:text-gray-200">Pricing</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-12 pt-6 border-t border-gray-700 flex flex-col sm:flex-row justify-between items-center text-sm text-gray-500 dark:text-gray-100">
+      <p>© 2025 Biccas Inc MHRX. All rights reserved.</p>
+      <div class="flex space-x-6 mt-4 sm:mt-0">
+        <a href="#" class="hover:text-emerald-500">Terms and Conditions</a>
+        <a href="#" class="hover:text-emerald-500">Privacy Policy</a>
+      </div>
+    </div>
+  </footer>
+</section>
+<!--  Testimonial & Contact Form Section end  -->
+
+  <!-- Mobile Toggle Script -->
+  <script src="scripts.js">
+  </script>
+
+</body>
+</html>
